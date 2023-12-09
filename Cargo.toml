@@ -1,0 +1,13 @@
+[package]
+name = "runtime-attestation-ref-value"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.32"
+oci-distribution = { git = "https://github.com/krustlet/oci-distribution.git", rev = "f44124c" }
+tokio = { version = "1.28.1", features = ["full"] }
+log = "0.4.14"
+env_logger = "0.10.1"
+sha2 = "0.10.8"
+clap = { version = "4.4.11", features = ["derive"] }
